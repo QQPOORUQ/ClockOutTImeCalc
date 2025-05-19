@@ -1,5 +1,7 @@
 <template>
-  <q-page padding class="flex flex-center">
+  <q-page padding 
+  style="background-image: url('src/assets/melody.jpg'); background-size: cover; background-position: center;"
+  class="flex flex-center">
     <q-card class="q-pa-md" style="min-width: 320px; max-width: 400px; width: 100%;">
       <div class="text-h6 q-mb-md">今天上班時間</div>
       <q-input
@@ -94,7 +96,9 @@ onUnmounted(() => {
 
 // 頁面掛載時先計算一次
 onMounted(() => {
+  document.title = '下班吃章魚燒'
   calculateEndTime()
+
 })
 </script>
 

@@ -40,7 +40,7 @@ export default defineConfig((/* ctx */) => {
         node: 'node20',
 
       },
-      publicPath: 'ClockOutTImeCalc',
+      publicPath: '/ClockOutTImeCalc/',
       typescript: {
         strict: true,
         vueShim: true
