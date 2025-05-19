@@ -78,8 +78,8 @@ export default defineConfig((/* ctx */) => {
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver
     devServer: {
-      // https: true,
-      open: true // opens browser window automatically
+      port: 8081, // 改成可用的埠號
+      host: 'localhost'
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
